@@ -1,6 +1,6 @@
 const getCharacter = require('../src/getCharacter');
 
-describe('9 - Implemente os casos de teste da função `getCharacter`', () => {
+describe('9 - `getCharacter` Testes', () => {
   it('Verifica se a função, quando não recebe nenhum parâmetro, retorna undefined', () => {
     expect(getCharacter()).toBeUndefined();
   });

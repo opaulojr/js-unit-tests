@@ -2,7 +2,7 @@ const createStudent = require('../src/createStudent');
 
 const goodPerson = 'Eita pessoa boa!';
 
-describe('5 - Implemente a função `createStudent`', () => {
+describe('5 - `createStudent` Testes', () => {
   it('Verifica se a função `createStudent` retorna o objeto esperado', () => {
     const student = createStudent('Paulo, o Lobo Solitário');
     expect(typeof student).toBe('object');

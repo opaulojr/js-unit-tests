@@ -1,6 +1,6 @@
 const circle = require('../src/circle');
 
-describe('4 - Implemente os casos de teste para a função `circle`', () => {
+describe('4 - `circle` Testes', () => {
   it('Verifica se circle retorna undefined, caso o parâmetro passado não seja um número', () => {
   });
 

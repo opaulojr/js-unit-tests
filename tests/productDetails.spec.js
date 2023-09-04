@@ -1,6 +1,6 @@
 const productDetails = require('../src/productDetails');
 
-describe('6 - Implemente os casos de teste para a função `productDetails`', () => {
+describe('6 - `productDetails` Testes', () => {
   it('Verifica se productDetails é uma função', () => {
     expect(typeof productDetails).toBe('function');
   });

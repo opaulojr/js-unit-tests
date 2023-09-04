@@ -1,6 +1,6 @@
 const createMenu = require('../src/restaurant');
 
-describe('10 - Implemente a função `createMenu`, bem como seus casos de teste', () => {
+describe('10 - `createMenu` Testes', () => {
   it('Verifica se função `createMenu()` retorna um objeto que possui a chave `fetchMenu`, a qual tem como valor uma função', () => {
     const menu = createMenu({
       food: {},

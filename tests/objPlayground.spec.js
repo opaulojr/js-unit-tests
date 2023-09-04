@@ -1,6 +1,6 @@
 const { calculator, arrayGenerator } = require('../src/objPlayground');
 
-describe('7 - Implemente as funções `calculator` e `arrayGenerator`', () => {
+describe('7 - `calculator` e `arrayGenerator` Testes', () => {
   it('Verifica se a função `calculator` retorna os valores esperados', () => {
     expect(calculator(1, 3)).toEqual({
       sum: 4, mult: 3, div: 0, sub: -2,

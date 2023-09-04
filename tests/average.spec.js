@@ -1,6 +1,6 @@
 const average = require('../src/average');
 
-describe('1 - Implemente a função `average`', () => {
+describe('1 - `average` Testes', () => {
   it('Verifica se ao receber um array de números a função `average` retorna a média de seus valores', () => {
     expect(average([3, 4, 5])).toEqual(4);
     expect(average([0, 0, 0, 0, 0, 0, 0])).toEqual(0);

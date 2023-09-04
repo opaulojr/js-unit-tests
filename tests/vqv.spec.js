@@ -1,6 +1,6 @@
 const vqv = require('../src/vqv');
 
-describe('3 - Implemente a função `vqv`', () => {
+describe('3 - `vqv` Testes', () => {
   it('Verifica se `vqv` é uma função', () => {
     expect(typeof vqv).toBe('function');
   });
