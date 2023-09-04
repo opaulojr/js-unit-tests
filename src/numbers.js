@@ -1,4 +1,4 @@
-function numbers(array) {
+const numbers = (array) => {
   if (!Array.isArray(array)) return undefined;
 
   for (let i = 0; i < array.length; i += 1) {
@@ -8,6 +8,6 @@ function numbers(array) {
   }
 
   return true;
-}
+};
 
 module.exports = numbers;
